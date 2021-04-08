@@ -6,8 +6,14 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(
+/*@CucumberOptions(
         features = "src/test/resources/features/challenge.feature",
+        tags = "@stories",
+        glue = "co.com.automatization.challenge1.stepdefinitions",
+        snippets = SnippetType.CAMELCASE
+)*/
+@CucumberOptions(
+        features = "src/test/resources/features/challenge2.feature",
         tags = "@stories",
         glue = "co.com.automatization.challenge1.stepdefinitions",
         snippets = SnippetType.CAMELCASE
