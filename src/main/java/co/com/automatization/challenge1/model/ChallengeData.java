@@ -14,6 +14,15 @@ public class ChallengeData {
     private String titleHome;
     private String titleForm;
     private String txtSearch;
+    private String txtMessage;
+
+    public String getTxtMessage() {
+        return txtMessage;
+    }
+
+    public void setTxtMessage(String txtMessage) {
+        this.txtMessage = txtMessage;
+    }
 
     public String getTxtSearch() {
         return txtSearch;

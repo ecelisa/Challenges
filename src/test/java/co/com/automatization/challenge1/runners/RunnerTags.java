@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //features = "src/test/resources/features/challenge.feature",
         //features = "src/test/resources/features/challenge2.feature",
-        features = "src/test/resources/features/challenge4.feature",
+        //features = "src/test/resources/features/challenge4.feature",
+        features = "src/test/resources/features/challenge7.feature",
         tags = "@stories",
         glue = "co.com.automatization.challenge1.stepdefinitions",
         snippets = SnippetType.CAMELCASE
