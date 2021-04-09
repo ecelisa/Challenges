@@ -13,6 +13,15 @@ public class ChallengeData {
     private Integer txtRange;
     private String titleHome;
     private String titleForm;
+    private String txtSearch;
+
+    public String getTxtSearch() {
+        return txtSearch;
+    }
+
+    public void setTxtSearch(String txtSearch) {
+        this.txtSearch = txtSearch;
+    }
 
     public String getTitleHome() {
         return titleHome;
