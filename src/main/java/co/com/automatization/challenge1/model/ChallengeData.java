@@ -15,6 +15,33 @@ public class ChallengeData {
     private String titleForm;
     private String txtSearch;
     private String txtMessage;
+    private String txtName;
+    private String txtCountryCode;
+    private String txtCountry;
+
+    public String getTxtCountryCode() {
+        return txtCountryCode;
+    }
+
+    public void setTxtCountryCode(String txtCountryCode) {
+        this.txtCountryCode = txtCountryCode;
+    }
+
+    public String getTxtCountry() {
+        return txtCountry;
+    }
+
+    public void setTxtCountry(String txtCountry) {
+        this.txtCountry = txtCountry;
+    }
+
+    public String getTxtName() {
+        return txtName;
+    }
+
+    public void setTxtName(String txtName) {
+        txtName = txtName;
+    }
 
     public String getTxtMessage() {
         return txtMessage;

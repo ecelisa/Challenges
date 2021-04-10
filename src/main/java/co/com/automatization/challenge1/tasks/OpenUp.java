@@ -1,9 +1,6 @@
 package co.com.automatization.challenge1.tasks;
 
-import co.com.automatization.challenge1.userinterface.BancolombiaSimuladorPage;
-import co.com.automatization.challenge1.userinterface.ColorLibPage;
-import co.com.automatization.challenge1.userinterface.ExitoPageHome;
-import co.com.automatization.challenge1.userinterface.HerokuPage;
+import co.com.automatization.challenge1.userinterface.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -14,6 +11,7 @@ public class OpenUp implements Task {
     private BancolombiaSimuladorPage bancolombiaSimuladorPage;
     private ExitoPageHome exitoPageHome;
     private HerokuPage herokuPage;
+    private CrmZohoPage crmZohoPage;
     public static OpenUp thePage() {
         return Tasks.instrumented(OpenUp.class);
     }
@@ -22,6 +20,7 @@ public class OpenUp implements Task {
         //actor.attemptsTo(Open.browserOn(colorLibPage));
         //actor.attemptsTo(Open.browserOn(bancolombiaSimuladorPage));
         //actor.attemptsTo(Open.browserOn(exitoPageHome));
-        actor.attemptsTo(Open.browserOn(herokuPage));
+        //actor.attemptsTo(Open.browserOn(herokuPage));
+        actor.attemptsTo(Open.browserOn(crmZohoPage));
     }
 }
