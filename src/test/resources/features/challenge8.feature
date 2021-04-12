@@ -14,5 +14,11 @@
       @scenarioCreateTask
       Scenario: Create task
         Given that david login in the platform
+        | txtEmail  | txtPassword |
+        | ecelisa@choucairtesting.com | Choucair2021  |
         When David register a task
+        | txtDate | txtSubject  | txtDescription  | txtStatus | txtPriority |
+        | 12/04/2021  | ExampleTask | This is a example of with create a task | In Progress | Low |
         Then David checked that the task is successfully
+        | txtSubject  |
+        | ExampleTask |

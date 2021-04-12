@@ -18,6 +18,42 @@ public class ChallengeData {
     private String txtName;
     private String txtCountryCode;
     private String txtCountry;
+    private String txtSubject;
+    private String txtDescription;
+    private String txtStatus;
+    private String txtPriority;
+
+    public String getTxtSubject() {
+        return txtSubject;
+    }
+
+    public void setTxtSubject(String txtSubject) {
+        this.txtSubject = txtSubject;
+    }
+
+    public String getTxtDescription() {
+        return txtDescription;
+    }
+
+    public void setTxtDescription(String txtDescription) {
+        this.txtDescription = txtDescription;
+    }
+
+    public String getTxtStatus() {
+        return txtStatus;
+    }
+
+    public void setTxtStatus(String txtStatus) {
+        this.txtStatus = txtStatus;
+    }
+
+    public String getTxtPriority() {
+        return txtPriority;
+    }
+
+    public void setTxtPriority(String txtPriority) {
+        this.txtPriority = txtPriority;
+    }
 
     public String getTxtCountryCode() {
         return txtCountryCode;
