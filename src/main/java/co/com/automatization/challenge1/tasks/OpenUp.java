@@ -12,6 +12,7 @@ public class OpenUp implements Task {
     private ExitoPageHome exitoPageHome;
     private HerokuPage herokuPage;
     private CrmZohoPage crmZohoPage;
+    private YellowPage yellowPage;
     public static OpenUp thePage() {
         return Tasks.instrumented(OpenUp.class);
     }
@@ -21,6 +22,7 @@ public class OpenUp implements Task {
         //actor.attemptsTo(Open.browserOn(bancolombiaSimuladorPage));
         //actor.attemptsTo(Open.browserOn(exitoPageHome));
         //actor.attemptsTo(Open.browserOn(herokuPage));
-        actor.attemptsTo(Open.browserOn(crmZohoPage));
+        //actor.attemptsTo(Open.browserOn(crmZohoPage));
+        actor.attemptsTo(Open.browserOn(yellowPage));
     }
 }

@@ -11,8 +11,9 @@ import org.junit.runner.RunWith;
         //features = "src/test/resources/features/challenge2.feature",
         //features = "src/test/resources/features/challenge4.feature",
         //features = "src/test/resources/features/challenge7.feature",
-        features = "src/test/resources/features/challenge8.feature",
-        tags = "@scenarioCreateTask",
+        //features = "src/test/resources/features/challenge8.feature",
+        features = "src/test/resources/features/challenge9.feature",
+        tags = "@scenario",
         glue = "co.com.automatization.challenge1.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )

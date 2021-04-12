@@ -1,6 +1,6 @@
 package co.com.automatization.challenge1.tasks;
 
-import co.com.automatization.challenge1.userinterface.ExitoPage;
+import co.com.automatization.challenge1.userinterface.YellowPageSearch;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -18,8 +18,8 @@ public class Search implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue(word).into(ExitoPage.INPUT_SEARCH),
-                Click.on(ExitoPage.BUTTON_SEARCH)
+                Enter.theValue(word).into(YellowPageSearch.INPUT_SEARCH),
+                Click.on(YellowPageSearch.BUTTON_SEARCH)
         );
     }
 }
