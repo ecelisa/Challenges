@@ -32,15 +32,15 @@ public class Register implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-            Enter.theValue(txtName).into(RegisterPage.INPUT_NAME),
-            Enter.theValue(txtEmail).into(RegisterPage.INPUT_EMAIL),
-            Enter.theValue(txtPassword).into(RegisterPage.INPUT_PASSWORD),
-            SelectFromOptions.byVisibleText(txtCountryCode).from(RegisterPage.SELECT_COUNTRY_CODE),
-            Enter.theValue(String.valueOf(txtDigits)).into(RegisterPage.INPUT_PHONE),
-            Click.on(RegisterPage.LINK_CHANGE_COUNTRY),
-            SelectFromOptions.byVisibleText(txtCountry).from(RegisterPage.SELECT_COUNTRY),
-            Click.on(RegisterPage.CHECK_POLITICS),
-            Click.on(RegisterPage.BUTTON_REGISTER)
+                Enter.theValue(txtName).into(RegisterPage.INPUT_NAME),
+                Enter.theValue(txtEmail).into(RegisterPage.INPUT_EMAIL),
+                Enter.theValue(txtPassword).into(RegisterPage.INPUT_PASSWORD),
+                SelectFromOptions.byVisibleText(txtCountryCode).from(RegisterPage.SELECT_COUNTRY_CODE),
+                Enter.theValue(String.valueOf(txtDigits)).into(RegisterPage.INPUT_PHONE),
+                Click.on(RegisterPage.LINK_CHANGE_COUNTRY),
+                SelectFromOptions.byVisibleText(txtCountry).from(RegisterPage.SELECT_COUNTRY),
+                Click.on(RegisterPage.CHECK_POLITICS),
+                Click.on(RegisterPage.BUTTON_REGISTER)
         );
     }
 }

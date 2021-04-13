@@ -1,7 +1,6 @@
 package co.com.automatization.challenge1.stepdefinitions;
 
 import co.com.automatization.challenge1.model.ChallengeData;
-import co.com.automatization.challenge1.model.Question;
 import co.com.automatization.challenge1.questions.Answer;
 import co.com.automatization.challenge1.questions.QuestionWelcome;
 import co.com.automatization.challenge1.tasks.CreateTask;

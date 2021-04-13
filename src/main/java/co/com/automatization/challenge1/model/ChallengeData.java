@@ -22,6 +22,52 @@ public class ChallengeData {
     private String txtDescription;
     private String txtStatus;
     private String txtPriority;
+    private String txtLastName;
+    private String txtPhone;
+
+    public String getTxtLastName() {
+        return txtLastName;
+    }
+
+    public void setTxtLastName(String txtLastName) {
+        this.txtLastName = txtLastName;
+    }
+
+    public String getTxtPhone() {
+        return txtPhone;
+    }
+
+    public void setTxtPhone(String txtPhone) {
+        this.txtPhone = txtPhone;
+    }
+
+    public String getTxtDocumentType() {
+        return txtDocumentType;
+    }
+
+    public void setTxtDocumentType(String txtDocumentType) {
+        this.txtDocumentType = txtDocumentType;
+    }
+
+    public String getTxtNumberDocumentDoctor() {
+        return txtNumberDocumentDoctor;
+    }
+
+    public void setTxtNumberDocumentDoctor(String txtNumberDocumentDoctor) {
+        this.txtNumberDocumentDoctor = txtNumberDocumentDoctor;
+    }
+
+    public String getTxtNumberDocumentPatient() {
+        return txtNumberDocumentPatient;
+    }
+
+    public void setTxtNumberDocumentPatient(String txtNumberDocumentPatient) {
+        this.txtNumberDocumentPatient = txtNumberDocumentPatient;
+    }
+
+    private String txtDocumentType;
+    private String txtNumberDocumentDoctor;
+    private String txtNumberDocumentPatient;
 
     public String getTxtSubject() {
         return txtSubject;
